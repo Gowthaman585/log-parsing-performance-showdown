@@ -63,13 +63,11 @@ The benchmark runs each tool 10 times, then prints a results table with **avg, m
 ==============================
 Tool      Avg       Min       Max
 ------------------------------
-grep  :  0.0XXXXX  0.0XXXXX  0.0XXXXX
-awk   :  0.0XXXXX  0.0XXXXX  0.0XXXXX
-python:  0.0XXXXX  0.0XXXXX  0.0XXXXX
+awk    : 0.07669 0.07482 0.08089
+grep   : 0.00526 0.00500 0.00561
+python : 0.09079 0.08908 0.09161
 ==============================
-```
-
-> ⚠️ Run `python3 bench_mark.py Failed` on your machine and paste your actual numbers here.
+````
 
 ---
 
