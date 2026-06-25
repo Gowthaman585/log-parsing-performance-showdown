@@ -17,6 +17,7 @@ if test $# -eq 0; then
 # stop the program and alert the user.
 elif test $# -gt 1; then
 	echo -e "Too many arguments\nFAILED!"
+	exit 1;
 fi
 
 # store the first argument in 

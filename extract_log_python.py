@@ -11,7 +11,6 @@ elif len(sys.argv) > 2:
     print(f"Too many argument found!\n");
     sys.exit(1);
 elif len(sys.argv) == 2:
-    print("Arguments founded!: ",sys.argv[1],end='\n')
     if sys.argv[1] not in ["Accepted","Failed"] :
         print(f"Invalid argument!: try <Accepted/Failed>\n")
         sys.exit(1)
